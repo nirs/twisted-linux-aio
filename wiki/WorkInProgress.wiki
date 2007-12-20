@@ -34,3 +34,11 @@ block on allocation of those. So lets say your /src is mounted on
 # echo 512 > /sys/block/sda/queue/nr_requests
     }}}
     -- found [http://linux.derkeiler.com/Mailing-Lists/Kernel/2006-11/msg00966.html here]. 
+ * also this:
+   {{{
+
+
+On Linux, there is a system-wide limit of the maximum number of parallel KAIO requests. The /proc/sys/fs/aio-max-nr file contains this value. The Linux system administrator can increase the value, for example, by using this command:
+
+# echo new_value > /proc/sys/fs/aio-max-nr
+    }}}
