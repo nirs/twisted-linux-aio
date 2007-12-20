@@ -10,6 +10,7 @@ There are other solutions:
  * check out [http://lwn.net/Articles/172844/ Polyakov's work] (not developed anymore)
  * check out [http://www.bullopensource.org/posix/ POSIX aio for Linux]
  * check out [http://lwn.net/Articles/225714/ eventfd]
+ * check out [http://www.kernel.org/pub/linux/kernel/people/suparna/aio/ Suparna's patches]
 
 I'm not sure if any of those works with vanilla kernel.
 
