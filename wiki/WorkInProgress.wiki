@@ -1,5 +1,5 @@
 #summary twisted-linux-aio
-#labels Featured
+#labels Featured,Phase-Design
 
 = It is still work in progress! =
 
@@ -13,6 +13,8 @@ There are other solutions:
  * check out [http://www.kernel.org/pub/linux/kernel/people/suparna/aio/ Suparna's patches]
 
 I'm not sure if any of those works with vanilla kernel.
+
+Also, buffered AIO is still to be done!
 
 = It still can block! =
 
