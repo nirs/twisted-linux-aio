@@ -14,6 +14,8 @@ There are other solutions:
 
 Also, buffered AIO is still to be done! That's right! Everything you read on Linux, using O_DIRECT is _unbuffered_. 
 
+Fortunatley, it seems to be possible to use eventfd with AIO, [http://lwn.net/Articles/226252/ see here]. C example included in our trunk.
+
 = It still can block! =
 
 io_submit - the procedure called by Queue.schedule functions (Queue.scheduleRead, for example) can be blocking. 
