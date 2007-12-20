@@ -12,9 +12,7 @@ There are other solutions:
  * check out [http://lwn.net/Articles/225714/ eventfd]
  * check out [http://www.kernel.org/pub/linux/kernel/people/suparna/aio/ Suparna's patches]
 
-I'm not sure if any of those works with vanilla kernel.
-
-Also, buffered AIO is still to be done!
+Also, buffered AIO is still to be done! That's right! Everything you read on Linux, using O_DIRECT is _unbuffered_. 
 
 = It still can block! =
 
